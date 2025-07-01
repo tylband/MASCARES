@@ -1,13 +1,7 @@
 <?php
 
 // Database connection details
-$host = 'localhost';
-$user = 'root';
-$password = '';
-$dbname = 'assistance_mayors';
-
-// Create a new mysqli connection
-$conn = new mysqli($host, $user, $password, $dbname);
+include 'config.php';
 
 // Check for connection error
 if ($conn->connect_error) {

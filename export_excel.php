@@ -2,7 +2,6 @@
 session_start();
 // Include the database connection
 include 'config.php';
-
 // Fetch the date range and filter option from GET parameters
 $startDate = $_GET['start_date'] ?? null;
 $endDate = $_GET['end_date'] ?? null;

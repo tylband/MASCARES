@@ -1,8 +1,8 @@
 <?php
 // Database connection details
-$host = 'localhost';
-$user = 'root';
-$password = '';
+$host = '192.168.10.248';
+$user = 'migz';
+$password = '4medicine';
 $dbname = 'medicine_mayors';
 
 // Create connection
